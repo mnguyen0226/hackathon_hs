@@ -78,7 +78,7 @@ This repository contains:
     - "http://localhost:8000" is the local server that you will use to train your ML/RL agents.
 - **Step 4:** Read the documentations of [poke-env](https://poke-env.readthedocs.io/en/latest/index.html), explore the environment, and build your best pokemon-bot.
     - Additional tutorials are provided below.
-- **Step 5:** When you are done. Feel free to challenge your friends' bots or us to win prizes.
+- **Step 5:** When you are done, feel free to challenge your friends' bots or us to win prizes.
 
 #### Tips
 
@@ -92,6 +92,10 @@ This repository contains:
     - [Berkeley's Deep Reinforcement Learning Course](http://rail.eecs.berkeley.edu/deeprlcourse/).
     - [More Resources](https://github.com/dennybritz/reinforcement-learning).
 
+- Recommended Developing Environments:
+    - [Poke-env]() itself.
+    - [Stable Baselines](https://stable-baselines.readthedocs.io/en/master/index.html). Not Stable Baselines 3.
+    - [RLlib](https://docs.ray.io/en/master/rllib.html).
 ### Tutorial 1
 - 
 
