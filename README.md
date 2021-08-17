@@ -52,11 +52,11 @@ This repository contains:
 - Submission:
 
 ### Installation
-- Step 1: On your Python workspace, install [Poke-env](https://poke-env.readthedocs.io/en/latest/) with 
+- **Step 1:** On your Python workspace, install [Poke-env](https://poke-env.readthedocs.io/en/latest/) with 
 ```
 pip install poke-env
 ```
-- Step 2: Install NodeJS v10+. 
+- **Step 2:** Install NodeJS v10+. 
     - [For Linux](https://github.com/nodesource/distributions/blob/master/README.md#debinstall).
     - [For Windows](https://nodejs.org/en/download/).
     - [For MacOS](https://nodejs.org/en/download/).
