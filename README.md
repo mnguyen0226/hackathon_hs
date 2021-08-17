@@ -3,7 +3,7 @@
 ![alt text](docs/imgs/acewall_hackathon.jpg)
 
 # About
-This repository forks the Pokemon-Showdown, poke-env directories to get the up-to-date set-up, tutorials, implementations for practicing Machine Learning Reinforcement Learning Pokemon Battle Bots against Heron's benchmark scripted agents and trained agents.
+This repository utilizes the [Pokemon-Showdown](https://github.com/smogon/pokemon-showdown), [poke-env](https://poke-env.readthedocs.io/en/latest/getting_started.html) repositories to get the up-to-date set-up, tutorials, implementations for practicing Machine Learning Reinforcement Learning Pokemon Battle Bots against Heron's benchmark scripted agents and trained agents.
 
 This repository contains:
 - About Heron Systems.
@@ -116,17 +116,21 @@ This repository contains:
     - [Poke-env]() itself.
     - [Stable Baselines](https://stable-baselines.readthedocs.io/en/master/index.html). Not Stable Baselines 3.
     - [RLlib](https://docs.ray.io/en/master/rllib.html).
+
 ### Tutorial 1
-- Tutorial on rendering 2 scripted agents on Pokemon Showdown.
+    - Check out poke-env [examples](https://poke-env.readthedocs.io/en/latest/examples.html).
 
 ### Tutorial 2
-- Tutorial on having you play against 2 scripted agents on Pokemon Showdown on 2 machines.
+- Tutorial on rendering 2 scripted agents on Pokemon Showdown.
 
 ### Tutorial 3
-- Tutorial on training and rendering simple DQN agent on Pokemon Showdown.
+- Tutorial on having you play against 2 scripted agents on Pokemon Showdown on 2 machines.
 
 ### Tutorial 4
-- Tutorial on having you play against 2 scripted agents on Pokemon Showdown on 2 machine.
+- Tutorial on training and rendering simple DQN agent on Pokemon Showdown.
 
 ### Tutorial 5
+- Tutorial on having you play against 2 scripted agents on Pokemon Showdown on 2 machine.
+
+### Tutorial 6
 - Tutorial on having your RL agents vs scripted agents on Pokemon Showdown on 2 machine.
