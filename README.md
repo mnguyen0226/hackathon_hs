@@ -24,8 +24,12 @@ This repository contains:
 - We protected [US borders](https://heronsystems.com/work/).
 
 # Hackathon 2021 & Contact Infos
-- Option 1: Build the coolest ML/RL/Robotics Project/Application
-- Option 2: Alpha Poke-fight Trials
+
+## Rules
+- Team of 3?
+- There are two optional projects that you 
+    - Option 1: Build the coolest ML/RL/Robotics Project/Application.
+    - Option 2: Alpha Poke-fight Trials.
 
 ## Contact Infos
 - Alex
@@ -35,24 +39,29 @@ This repository contains:
 - What's your/your friends'/your family's daily problems? Can you apply your ML/RL/SW skills to solve it?
 - What we want to see?
     - Ability
+- Submission:
 
-## Option 2: 
+## Option 2: Alpha Poke-fight Trials
 - Submit your agents to fight 5 rounds and get prizes.
 - What we want to see?
     - Ability
+- Submission:
 
 ## Resources - Jupyter Notebook
-
-- General Resources:
-    - 
+General Resources:
 - 
 
 ### Tutorial 1
+- 
 
 ### Tutorial 2
+- 
 
 ### Tutorial 3
+- 
 
 ### Tutorial 4
+- 
 
 ### Tutorial 5
+- 
