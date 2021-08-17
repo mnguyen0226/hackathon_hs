@@ -46,12 +46,16 @@ This repository contains:
 ![alt text](docs/imgs/APT.jpg)
 
 - You think you are good at Pokemon? Submit your agents to fight 5 rounds and get prizes.
+- To enable everyone to fight with each other and compatible with our RL agents, we limit everyone to use the easy-to-use, easy-to-apply [poke-env](https://poke-env.readthedocs.io/en/latest/).
 - What we want to see?
     - Ability...
 - Submission:
 
 ### Installation
-- 
+- Step 1: On your Python workspace, install [Poke-env](https://poke-env.readthedocs.io/en/latest/) with 
+```
+pip install poke-env
+```
 
 ## Resources - Jupyter Notebook
 ### General Resources:
