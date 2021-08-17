@@ -76,7 +76,9 @@ This repository contains:
     ```
 
     - "http://localhost:8000" is the local server that you will use to train your ML/RL agents.
-
+- **Step 4:** Read the documentations of [poke-env](https://poke-env.readthedocs.io/en/latest/index.html), explore the environment, and build your best pokemon-bot.
+    - Additional tutorials are provided below.
+- **Step 5:** When you are done. Feel free to challenge your friends' bots or us to win prizes.
 
 ## Resources - Jupyter Notebook
 ### General Resources:
