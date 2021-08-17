@@ -53,28 +53,27 @@ This repository contains:
 
 ### Installation
 - **Step 1:** On your Python workspace, install [Poke-env](https://poke-env.readthedocs.io/en/latest/) with 
-```
-pip install poke-env
-```
+    ```
+    pip install poke-env
+    ```
 - **Step 2:** Install NodeJS v10+. 
     - [For Linux](https://github.com/nodesource/distributions/blob/master/README.md#debinstall).
     - [For Windows](https://nodejs.org/en/download/).
     - [For MacOS](https://nodejs.org/en/download/).
 - **Step 3:** Set up training server.
     - Unzip src/Pokemon-Showdown-master.zip.
-```
-cd Pokemon-Showdown
-node pokemon-showdown start --no-security
-```
-    
+    ```
+    cd Pokemon-Showdown
+    node pokemon-showdown start --no-security
+    ```
     - You should see something like this:
 
-```
-RESTORE CHATROOM: lobby
-RESTORE CHATROOM: staff
-Worker 1 now listening on 0.0.0.0:8000
-Test your server at http://localhost:8000
-```
+    ```
+    RESTORE CHATROOM: lobby
+    RESTORE CHATROOM: staff
+    Worker 1 now listening on 0.0.0.0:8000
+    Test your server at http://localhost:8000
+    ```
 
     - "http://localhost:8000" is the local server that you will use to train your ML/RL agents.
 
