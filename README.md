@@ -39,7 +39,7 @@ This repository contains:
 
 - What's your/your friends'/your family's daily problems? Can you apply your ML/RL/SW skills to solve it?
 - What we want to see?
-    - Ability
+    - Ability...
 - Submission:
 
 ## Option 2: Alpha Poke-fight Trials
@@ -47,8 +47,11 @@ This repository contains:
 
 - You think you are good at Pokemon? Submit your agents to fight 5 rounds and get prizes.
 - What we want to see?
-    - Ability
+    - Ability...
 - Submission:
+
+### Installation
+- 
 
 ## Resources - Jupyter Notebook
 ### General Resources:
