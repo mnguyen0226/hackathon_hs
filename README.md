@@ -17,7 +17,6 @@ This repository contains:
 
 # About Heron Systems
 - [Heron Systems](https://heronsystems.com/about/) is a lean organization, our leadership remains active in our technical projects, offering partners highly responsive customer service.  Our technical approach is guided by a firm commitment to quality engineering, open architecture, and flexible, extensible systems.
-
 - We built [autonomous fighting jet](https://www.janes.com/defence-news/news-detail/heron-systems-ai-defeats-human-pilot-in-us-darpa-alphadogfight-trials).
 - We broke [games balance](https://heronsystems.com/work/gamebreaker/).
 - We established foundations for future [MOSAIC Warfare](https://heronsystems.com/work/gamebreaker/).
@@ -48,7 +47,7 @@ This repository contains:
 - Submission:
 
 ## Resources - Jupyter Notebook
-General Resources:
+### General Resources:
 - 
 
 ### Tutorial 1
