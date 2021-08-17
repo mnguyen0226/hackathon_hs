@@ -85,7 +85,7 @@ This repository contains:
 ## Resources - Jupyter Notebook
 ### Additional Resources:
 - Pokemon:
-    - [What is Pokemon?](https://en.wikipedia.org/wiki/Pok%C3%A9mon). ¯\_(ツ)_/¯
+    - [What is Pokemon?](https://en.wikipedia.org/wiki/Pok%C3%A9mon). ¯\\\_(ツ)_/¯
     - [Pokemon Showdown](https://pokemonshowdown.com/).
     - Pokemon Showdown [Intro Guidelines](https://www.smogon.com/forums/threads/the-beginners-guide-to-pokemon-showdown.3676132/).
     - Pokemon Showdown [repo](https://github.com/hsahovic/Pokemon-Showdown).
