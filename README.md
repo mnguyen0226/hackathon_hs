@@ -94,7 +94,9 @@ This repository contains:
     - Additional tutorials are provided below.
 - **Step 5:** When you are done, feel free to challenge your friends' bots or us to win prizes.
 
-#### Tips
+### Tips
+- Make sure that you create an Pokemon Showdown account for your bot. This will help you to challenge our bots.
+- After training, make two Pokemon Showdown account for you and your bot and see if you can fight your bot. If yes, then your bot is ready to fight Heron's Top Agents.
 
 ## Resources - Jupyter Notebook
 ### Additional Resources:
