@@ -36,6 +36,7 @@ This repository contains:
 - What's your/your friends'/your family's daily problems? Can you apply your ML/RL/SW skills to solve it?
 - What we want to see?
     - Ability...
+    - Explain your approach and code.
 - Submission:
 
 ## Option 2: Alpha Poke-fight Trials
@@ -45,6 +46,8 @@ This repository contains:
 - To enable everyone to fight with each other and compatible with our RL agents, we limit everyone to use the easy-to-use, easy-to-apply [poke-env](https://poke-env.readthedocs.io/en/latest/).
 - What we want to see?
     - Ability...
+    - Explain your approach and code.
+    - Python best practice.
 - Submission:
 
 ### Top Agents:
