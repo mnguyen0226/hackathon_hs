@@ -2,7 +2,7 @@
 
 ![alt text](docs/imgs/acewall_hackathon.jpg)
 
-# About This Repo
+# About
 This repository forks the Pokemon-Showdown, poke-env directories to get the up-to-date set-up, tutorials, implementations for practicing Machine Learning Reinforcement Learning Pokemon Battle Bots against Heron's benchmark scripted agents and trained agents.
 
 This repository contains:
@@ -18,10 +18,10 @@ This repository contains:
 # About Heron Systems
 - [Heron Systems](https://heronsystems.com/about/) is a lean organization, our leadership remains active in our technical projects, offering partners highly responsive customer service.  Our technical approach is guided by a firm commitment to quality engineering, open architecture, and flexible, extensible systems.
 
-- We built [autonomous fighting jet](https://www.janes.com/defence-news/news-detail/heron-systems-ai-defeats-human-pilot-in-us-darpa-alphadogfight-trials)
-- We broke [games balance](https://heronsystems.com/work/gamebreaker/)
-- We established foundations for future [MOSAIC Warfare](https://heronsystems.com/work/gamebreaker/)
-- We protected [US borders](https://heronsystems.com/work/)
+- We built [autonomous fighting jet](https://www.janes.com/defence-news/news-detail/heron-systems-ai-defeats-human-pilot-in-us-darpa-alphadogfight-trials).
+- We broke [games balance](https://heronsystems.com/work/gamebreaker/).
+- We established foundations for future [MOSAIC Warfare](https://heronsystems.com/work/gamebreaker/).
+- We protected [US borders](https://heronsystems.com/work/).
 
 # Hackathon 2021 & Contact Infos
 - Option 1: Build the coolest ML/RL/Robotics Project/Application
@@ -42,6 +42,10 @@ This repository contains:
     - Ability
 
 ## Resources - Jupyter Notebook
+
+- General Resources:
+    - 
+- 
 
 ### Tutorial 1
 
