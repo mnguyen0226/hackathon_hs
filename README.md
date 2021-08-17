@@ -37,18 +37,18 @@ This repository contains:
 ## Option 1: Build the coolest ML/RL/Robotics Project/Application
 ![alt text](docs/imgs/ai.jpg)
 
-What's your/your friends'/your family's daily problems? Can you apply your ML/RL/SW skills to solve it?
-What we want to see?
+- What's your/your friends'/your family's daily problems? Can you apply your ML/RL/SW skills to solve it?
+- What we want to see?
     - Ability
-Submission:
+- Submission:
 
 ## Option 2: Alpha Poke-fight Trials
 ![alt text](docs/imgs/APT.jpg)
 
-You think you are good at Pokemon? Submit your agents to fight 5 rounds and get prizes.
-What we want to see?
+- You think you are good at Pokemon? Submit your agents to fight 5 rounds and get prizes.
+- What we want to see?
     - Ability
-Submission:
+- Submission:
 
 ## Resources - Jupyter Notebook
 ### General Resources:
