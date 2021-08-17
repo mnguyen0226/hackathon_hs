@@ -24,6 +24,8 @@ This repository contains:
 - We protected [US borders](https://heronsystems.com/work/)
 
 # Hackathon 2021 Rules & Contacts info
+- Alex
+- Brett
 
 # Resources
 
