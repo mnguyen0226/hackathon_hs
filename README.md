@@ -97,7 +97,7 @@ This repository contains:
 - Make sure that you create an Pokemon Showdown account for your bot. This will help you to challenge our bots.
 - After training, make two Pokemon Showdown account for you and your bot and see if you can fight your bot. If yes, then your bot is ready to fight Heron's Top Agents.
 
-## Resources - Jupyter Notebook
+## Resources
 ### Additional Resources:
 - Pokemon:
     - [What is Pokemon?](https://en.wikipedia.org/wiki/Pok%C3%A9mon). ¯\\\_(ツ)_/¯
@@ -118,7 +118,7 @@ This repository contains:
     - [RLlib](https://docs.ray.io/en/master/rllib.html).
 
 ### Tutorial 1
-    - Check out poke-env [examples](https://poke-env.readthedocs.io/en/latest/examples.html).
+- Check out poke-env [examples](https://poke-env.readthedocs.io/en/latest/examples.html).
 
 ### Tutorial 2
 - Tutorial on rendering 2 scripted agents on Pokemon Showdown.
