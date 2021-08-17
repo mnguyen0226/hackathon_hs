@@ -2,7 +2,7 @@
 
 ![alt text](docs/imgs/acewall_hackathon.jpg)
 
-# About
+# About This Repo
 This repository forks the Pokemon-Showdown, poke-env directories to get the up-to-date set-up, tutorials, implementations for practicing Machine Learning Reinforcement Learning Pokemon Battle Bots against Heron's benchmark scripted agents and trained agents.
 
 This repository contains:
@@ -23,18 +23,32 @@ This repository contains:
 - We established foundations for future [MOSAIC Warfare](https://heronsystems.com/work/gamebreaker/)
 - We protected [US borders](https://heronsystems.com/work/)
 
-# Hackathon 2021 Rules & Contacts info
+# Hackathon 2021 & Contact Infos
+- Option 1: Build the coolest ML/RL/Robotics Project/Application
+- Option 2: Alpha Poke-fight Trials
+
+## Contact Infos
 - Alex
 - Brett
 
-# Resources
+## Option 1: Build the coolest ML/RL/Robotics Project/Application
+- What's your/your friends'/your family's daily problems? Can you apply your ML/RL/SW skills to solve it?
+- What we want to see?
+    - Ability
 
-# Tutorial 1
+## Option 2: 
+- Submit your agents to fight 5 rounds and get prizes.
+- What we want to see?
+    - Ability
 
-# Tutorial 2
+## Resources - Jupyter Notebook
 
-# Tutorial 3
+### Tutorial 1
 
-# Tutorial 4
+### Tutorial 2
 
-# Tutorial 5
+### Tutorial 3
+
+### Tutorial 4
+
+### Tutorial 5
