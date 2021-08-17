@@ -56,6 +56,10 @@ This repository contains:
 ```
 pip install poke-env
 ```
+- Step 2: Install NodeJS v10+. 
+    - [For Linux](https://github.com/nodesource/distributions/blob/master/README.md#debinstall).
+    - [For Windows](https://nodejs.org/en/download/).
+    - [For MacOS](https://nodejs.org/en/download/).
 
 ## Resources - Jupyter Notebook
 ### General Resources:
