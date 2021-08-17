@@ -25,7 +25,7 @@ This repository contains:
 # Hackathon 2021 & Contact Infos
 
 ## Rules
-- Team of 3?
+- Solo or Team of 3?
 - There are two optional projects that you 
     - Option 1: Build the coolest ML/RL/Robotics Project/Application.
     - Option 2: Alpha Poke-fight Trials.
@@ -80,9 +80,17 @@ This repository contains:
     - Additional tutorials are provided below.
 - **Step 5:** When you are done. Feel free to challenge your friends' bots or us to win prizes.
 
+#### Tips
+
 ## Resources - Jupyter Notebook
-### General Resources:
-- 
+### Additional Resources:
+- Reinforcement Learning Intro Resources:
+    - [OpenAI Spinning Up](https://spinningup.openai.com/en/latest/).
+    - [David Silver's Course](https://www.davidsilver.uk/teaching/).
+    - [Lilian Weng's Blog](https://lilianweng.github.io/lil-log/2018/04/08/policy-gradient-algorithms.html).
+    - [Berkeley's Deep RL Bootcamp](https://sites.google.com/view/deep-rl-bootcamp/lectures).
+    - [Berkeley's Deep Reinforcement Learning Course](http://rail.eecs.berkeley.edu/deeprlcourse/).
+    - [More Resources](https://github.com/dennybritz/reinforcement-learning).
 
 ### Tutorial 1
 - 
