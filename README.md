@@ -8,12 +8,8 @@ This repository forks the Pokemon-Showdown, poke-env directories to get the up-t
 This repository contains:
 - About Heron Systems.
 - Rules of Hackathon and Heron Systems' MLE and SWE contact info for Hackathon Q&A
-- Resource, tips, and tricks to setup poke-env environment on Linux. (SB, RLlib, Poke-env, About Showdown)
-- Tutorial on rendering 2 scripted agents on Pokemon Showdown.
-- Tutorial on having you play against 2 scripted agents on Pokemon Showdown on 2 machines.
-- Tutorial on training and rendering simple DQN agent on Pokemon Showdown.
-- Tutorial on having you play against 2 scripted agents on Pokemon Showdown on 2 machine.
-- Tutorial on having your RL agents vs scripted agents on Pokemon Showdown on 2 machine
+- Resource, tips, and tricks to setup poke-env environment.
+- Tutorials.
 
 # About Heron Systems
 - [Heron Systems](https://heronsystems.com/about/) is a lean organization, our leadership remains active in our technical projects, offering partners highly responsive customer service.  Our technical approach is guided by a firm commitment to quality engineering, open architecture, and flexible, extensible systems.
@@ -118,16 +114,16 @@ This repository contains:
     - [Stable Baselines](https://stable-baselines.readthedocs.io/en/master/index.html). Not Stable Baselines 3.
     - [RLlib](https://docs.ray.io/en/master/rllib.html).
 ### Tutorial 1
-- 
+- Tutorial on rendering 2 scripted agents on Pokemon Showdown.
 
 ### Tutorial 2
-- 
+- Tutorial on having you play against 2 scripted agents on Pokemon Showdown on 2 machines.
 
 ### Tutorial 3
-- 
+- Tutorial on training and rendering simple DQN agent on Pokemon Showdown.
 
 ### Tutorial 4
-- 
+- Tutorial on having you play against 2 scripted agents on Pokemon Showdown on 2 machine.
 
 ### Tutorial 5
-- 
+- Tutorial on having your RL agents vs scripted agents on Pokemon Showdown on 2 machine.
