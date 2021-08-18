@@ -179,7 +179,7 @@ def main():
 
     print("Saving Model...")
     model.save(
-        "/home/mnguyen/Documents/summer2021/pokemon/hackathon_hs/src/tutorials/tutorial_five/dqn_sb_agent"
+        "/path_to_this/hackathon_hs/src/tutorials/tutorial_five/dqn_sb_agent"
     )
     print("Model Save")
 
