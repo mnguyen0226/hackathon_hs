@@ -14,20 +14,29 @@ trained_model = DQN.load(
     "/home/mnguyen/Documents/summer2021/pokemon/hackathon_hs/src/tutorials/tutorial_six/dqn_sb_agent"
 )
 
-
-
 class TrainedRLPlayer(Gen8EnvSinglePlayer):
     observation_space = Box(low=-10, high=10, shape=(10,))
     action_space = Discrete(22)
 
     def getThisPlayer(self):
+        """Get the current RL agent"""
         return self
 
     def __init__(self, *args, **kwargs):
+        """Initialize agent"""
         Gen8EnvSinglePlayer.__init__(self, *args, **kwargs)
         self.model = trained_model
 
     def embed_battle(self, battle):
+        """Embed Player to battles and return info from the Pokemon Showdown environment
+        Parameter
+        ----------
+        battle:
+            Max damage player's turn in the battle
+        Return
+        ----------
+        list of [4 moves, damaging values of each moves, number of pokemons of player, number of pokemons of opponent]
+        """
         # -1 indicates that the move does not have a base power
         # or is not available
         moves_base_power = -np.ones(4)
@@ -60,6 +69,15 @@ class TrainedRLPlayer(Gen8EnvSinglePlayer):
         )
 
     def compute_reward(self, battle) -> float:
+        """Compute rewards for each action taken of player in the battle
+        Parameter
+        ----------
+        battle:
+            Max damage player's turn in the battle
+        Return
+        ---------
+        float value of the rewards return from the environment
+        """
         return self.reward_computing_helper(
             battle, fainted_value=2, hp_value=1, victory_value=30
         )
@@ -122,6 +140,17 @@ class TrainedRLPlayer(Gen8EnvSinglePlayer):
             return self.choose_random_move(battle)
 
     def choose_move(self, battle):
+        """Choose move automatically
+
+        Parameter
+        ----------
+        battle:
+            Max damage player's turn in the battle
+
+        Return
+        ----------
+        Either best action or random action
+        """
         if (battle.available_moves):
             print("Available Move")
             # if the player can attack, it will
@@ -132,6 +161,8 @@ class TrainedRLPlayer(Gen8EnvSinglePlayer):
         else:  # Take randome move
             print("Random Move")
             return self.choose_random_move(battle)
+
+            
 class MaxDamagePlayer(RandomPlayer):
     def choose_move(self, battle):
         """Choose the best move of the max damage player.
