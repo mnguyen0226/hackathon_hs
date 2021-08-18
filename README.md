@@ -122,6 +122,9 @@ This repository contains:
     - [Stable Baselines](https://stable-baselines.readthedocs.io/en/master/index.html). Not Stable Baselines 3.
     - [RLlib](https://docs.ray.io/en/master/rllib.html).
 
+- **Note on tutorials below:** If Pokemon Showdown give you the spam message below when you challenge someone, just refresh the page and rechallenge.
+![alt text](https://github.com/mnguyen0226/hackathon_hs/blob/main/docs/imgs/spam_pokemon_showdown.jpg)
+
 ### Tutorial 1
 - Check out poke-env [examples](https://poke-env.readthedocs.io/en/latest/examples.html).
 
