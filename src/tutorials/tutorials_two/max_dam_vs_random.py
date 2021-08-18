@@ -12,6 +12,7 @@ import time
 from poke_env.player.player import Player
 from poke_env.player.random_player import RandomPlayer
 
+
 class MaxDamagePlayer(Player):
     def choose_move(self, battle):
         """Choose the best move of the max damage player.
@@ -36,6 +37,7 @@ class MaxDamagePlayer(Player):
         # If no attacks is available, a random switch will be made
         else:
             return self.choose_random_move(battle)
+
 
 async def main():
     # Start the time tracker
