@@ -3,6 +3,7 @@ from poke_env.player.random_player import RandomPlayer
 from poke_env.player_configuration import PlayerConfiguration
 from poke_env.server_configuration import ShowdownServerConfiguration
 
+
 async def main():
     # Create a max damage player with an account
     random_pokebot = RandomPlayer(

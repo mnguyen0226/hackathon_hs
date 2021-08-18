@@ -3,6 +3,7 @@ from poke_env.player.random_player import RandomPlayer
 from poke_env.player_configuration import PlayerConfiguration
 from poke_env.server_configuration import ShowdownServerConfiguration
 
+
 class MaxDamagePlayer(RandomPlayer):
     def choose_move(self, battle):
         """Choose the best move of the max damage player.
