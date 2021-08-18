@@ -20,18 +20,18 @@ This repository contains:
 
 # Hackathon 2021 & Contact Infos
 
-## Rules
+## 1. Rules
 - You can join solo or team of 2-3 members.
 - Any coding languages and frameworks are allowed.
 - There are two optional projects for you to participate to Heron Systems Hackathon:
     - Option 1: Build the coolest ML/RL/Robotics Project/Application.
     - Option 2: Alpha Poke-fight Trials.
 
-## Contact Infos
+## 2. Contact Infos
 - Alex: Machine Learning Engineer at Heron Systems.
 - Brett: President at Heron Systems.
 
-## Option 1: Build the coolest ML/RL/Robotics Project/Application
+## 3. Option 1: Build the coolest ML/RL/Robotics Project/Application
 ![alt text](docs/imgs/ai.jpg)
 
 - What's your/your friends'/your family's daily problems? Can you apply your ML/RL/SW skills to solve it?
@@ -42,7 +42,7 @@ This repository contains:
 - Submission:
     - Please contact Alex to submit your solutions and projects.
 
-## Option 2: Alpha Poke-fight Trials
+## 4. Option 2: Alpha Poke-fight Trials
 ![alt text](docs/imgs/APT.jpg)
 
 - You think you are good at Pokemon? Submit your agents to fight 5 rounds and get prizes.
@@ -102,8 +102,8 @@ This repository contains:
 - Make sure that you create an Pokemon Showdown account for your bot. This will help you to challenge our bots.
 - After training, make two Pokemon Showdown account for you and your bot and see if you can fight your bot. If yes, then your bot is ready to fight Heron's Top Agents.
 
-## Resources
-### Additional Resources:
+## 5. Resources
+### Supplements:
 - Pokemon:
     - [What is Pokemon?](https://en.wikipedia.org/wiki/Pok%C3%A9mon). ¯\\\_(ツ)_/¯
     - [Pokemon Showdown](https://pokemonshowdown.com/).
