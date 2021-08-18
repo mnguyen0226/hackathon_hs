@@ -120,17 +120,17 @@ This repository contains:
 ### Tutorial 1
 - Check out poke-env [examples](https://poke-env.readthedocs.io/en/latest/examples.html).
 
-### [Tutorial 2](https://github.com/mnguyen0226/hackathon_hs/tree/main/src/tutorials/tutorials_one/t1.md)
+### [Tutorial 2](https://github.com/mnguyen0226/hackathon_hs/tree/main/src/tutorials/tutorials_two/t2.md)
 - Tutorial on rendering 2 scripted agents on Pokemon Showdown.
 
-### [Tutorial 3](https://github.com/mnguyen0226/hackathon_hs/blob/main/src/tutorials/tutorials_two/t2.md)
+### [Tutorial 3](https://github.com/mnguyen0226/hackathon_hs/blob/main/src/tutorials/tutorials_three/t3.md)
 - Tutorial on having you play against 2 scripted agents on Pokemon Showdown on 2 machines.
 
-### [Tutorial 4](https://github.com/mnguyen0226/hackathon_hs/blob/main/src/tutorials/tutorials_three/t3.md)
+### [Tutorial 4](https://github.com/mnguyen0226/hackathon_hs/blob/main/src/tutorials/tutorials_four/t4.md)
 - Tutorial on training and rendering simple DQN agent on Pokemon Showdown.
 
-### [Tutorial 5](https://github.com/mnguyen0226/hackathon_hs/blob/main/src/tutorials/tutorial_four/t4.md)
+### [Tutorial 5](https://github.com/mnguyen0226/hackathon_hs/blob/main/src/tutorials/tutorial_five/t5.md)
 - Tutorial on having you play against 2 scripted agents on Pokemon Showdown on 2 machine.
 
-### [Tutorial 6](https://github.com/mnguyen0226/hackathon_hs/blob/main/src/tutorials/tutorial_five/t5.md)
+### [Tutorial 6](https://github.com/mnguyen0226/hackathon_hs/blob/main/src/tutorials/tutorial_six/t6.md)
 - Tutorial on having your RL agents vs scripted agents on Pokemon Showdown on 2 machine.
