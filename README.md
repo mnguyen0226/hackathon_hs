@@ -131,8 +131,7 @@ This repository contains:
 
 ### [Tutorial 4: Random Agent vs Max Damage Agent On Pokemon Showdown](https://github.com/mnguyen0226/hackathon_hs/blob/main/src/tutorials/tutorials_four/t4.md)
 
-### [Tutorial 5](https://github.com/mnguyen0226/hackathon_hs/blob/main/src/tutorials/tutorial_five/t5.md)
-- Tutorial on having you play against your RL Agent
+### [Tutorial 5: Trained DQN RL Agents on Stable Baseline](https://github.com/mnguyen0226/hackathon_hs/blob/main/src/tutorials/tutorial_five/t5.md)
 
 ### [Tutorial 6](https://github.com/mnguyen0226/hackathon_hs/blob/main/src/tutorials/tutorial_six/t6.md)
 - Tutorial on having your RL agents vs scripted agents on Pokemon Showdown on 2 machine.
