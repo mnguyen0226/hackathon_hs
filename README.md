@@ -24,14 +24,14 @@ This repository contains:
 - You can join solo or team of 2-3 members.
 - Any coding languages and frameworks are allowed.
 - There are two optional projects for you to participate to Heron Systems Hackathon:
-    - Option 1: Build the coolest ML/RL/Robotics Project/Application.
-    - Option 2: Alpha Poke-fight Trials.
+    - Option One: Build the coolest ML/RL/Robotics Project/Application.
+    - Option Two: Alpha Poke-fight Trials.
 
 ## 2. Contact Infos
 - Alex: Machine Learning Engineer at Heron Systems.
 - Brett: President at Heron Systems.
 
-## 3. Option 1: Build the coolest ML/RL/Robotics Project/Application
+## 3. Option One: Build the coolest ML/RL/Robotics Project/Application
 ![alt text](docs/imgs/ai.jpg)
 
 - What's your/your friends'/your family's daily problems? Can you apply your ML/RL/SW skills to solve it?
@@ -42,7 +42,7 @@ This repository contains:
 - Submission:
     - Please contact Alex to submit your solutions and projects.
 
-## 4. Option 2: Alpha Poke-fight Trials
+## 4. Option Two: Alpha Poke-fight Trials
 ![alt text](docs/imgs/APT.jpg)
 
 - You think you are good at Pokemon? Submit your agents to fight 5 rounds and get prizes.
