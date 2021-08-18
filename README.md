@@ -55,7 +55,7 @@ This repository contains:
 - Submission:
     - Please contact Alex to submit your solutions and projects.
 
-### Top Agents:
+### Top Agents
 | No.         | Agent Name  |  Training Accuracy | Testing Accuracy |
 | ----------- | ----------- | ------------------ | ---------------- |
 | 1           | A           | abc                | abc              |
@@ -103,7 +103,7 @@ This repository contains:
 - After training, make two Pokemon Showdown account for you and your bot and see if you can fight your bot. If yes, then your bot is ready to fight Heron's Top Agents.
 
 ## 5. Resources
-### Supplements:
+### Supplements
 - Pokemon:
     - [What is Pokemon?](https://en.wikipedia.org/wiki/Pok%C3%A9mon). ¯\\\_(ツ)_/¯
     - [Pokemon Showdown](https://pokemonshowdown.com/).
