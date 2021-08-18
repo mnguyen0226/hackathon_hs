@@ -1,9 +1,8 @@
 import asyncio
+import numpy as np
 from poke_env.player_configuration import PlayerConfiguration
 from poke_env.server_configuration import ShowdownServerConfiguration
 from stable_baselines import DQN
-import numpy as np
-from poke_env.player.random_player import RandomPlayer
 from gym.spaces import Box, Discrete
 from poke_env.player.env_player import Gen8EnvSinglePlayer
 
@@ -155,35 +154,6 @@ class TrainedRLPlayer(Gen8EnvSinglePlayer):
         else: 
             print("Random Move")
             return self.choose_random_move(battle)
-
-
-class MaxDamagePlayer(RandomPlayer):
-    def choose_move(self, battle):
-        """Choose the best move of the max damage player.
-        If the agents can attack then it will choose the best move,
-        else it will be a random move
-
-        Parameter
-        ----------
-        battle:
-            Max damage player's turn in the battle
-
-        Return
-        ----------
-        Either max-damage-move or random move
-        """
-        # If the player can attack, it will
-        if battle.available_moves:
-            # Finds the best move among available ones
-            print("Choose Move")
-            best_move = max(battle.available_moves, key=lambda move: move.base_power)
-            return self.create_order(best_move)
-
-        # If no attack is available, a random switch will be made
-        else:
-            print("Random Move")
-            return self.choose_random_move(battle)
-
 
 async def main():
     # Create a TrainedRLPlayer
