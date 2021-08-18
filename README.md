@@ -7,7 +7,7 @@ This repository utilizes the [Pokemon-Showdown](https://github.com/smogon/pokemo
 
 This repository contains:
 - About Heron Systems.
-- Rules of Hackathon and Heron Systems' MLE and SWE contact info for Hackathon Q&A
+- Rules of Hackathon and Heron Systems' MLE and SWE contact info for Hackathon Q&A.
 - Resource, tips, and tricks to setup poke-env environment.
 - Tutorials.
 
@@ -21,23 +21,26 @@ This repository contains:
 # Hackathon 2021 & Contact Infos
 
 ## Rules
-- Solo or Team of 3?
-- There are two optional projects that you 
+- You can join solo or team of 2-3 members.
+- Any coding languages and frameworks are allowed.
+- There are two optional projects for you to participate to Heron Systems Hackathon:
     - Option 1: Build the coolest ML/RL/Robotics Project/Application.
     - Option 2: Alpha Poke-fight Trials.
 
 ## Contact Infos
-- Alex
-- Brett
+- Alex: Machine Learning Engineer at Heron Systems.
+- Brett: President at Heron Systems.
 
 ## Option 1: Build the coolest ML/RL/Robotics Project/Application
 ![alt text](docs/imgs/ai.jpg)
 
 - What's your/your friends'/your family's daily problems? Can you apply your ML/RL/SW skills to solve it?
 - What we want to see?
-    - Ability...
-    - Explain your approach and code.
+    - Ability to analyze problems and come up with immediate and long-term solutions.
+    - Ability to apply software/machine learning/robotics skills to solve problems.
+    - Explain your approach and code clearly.
 - Submission:
+    - Please contact Alex to submit your solutions and projects.
 
 ## Option 2: Alpha Poke-fight Trials
 ![alt text](docs/imgs/APT.jpg)
@@ -45,10 +48,12 @@ This repository contains:
 - You think you are good at Pokemon? Submit your agents to fight 5 rounds and get prizes.
 - To enable everyone to fight with each other and compatible with our RL agents, we limit everyone to use the easy-to-use, easy-to-apply [poke-env](https://poke-env.readthedocs.io/en/latest/).
 - What we want to see?
-    - Ability...
-    - Explain your approach and code.
-    - Python best practice.
+    - Ability to analyze problems and come up with immediate and long-term solutions.
+    - Ability to apply software/machine learning/robotics skills to solve problems.
+    - Explain your approach and code clearly.
+    - Python / C++ best practice.
 - Submission:
+    - Please contact Alex to submit your solutions and projects.
 
 ### Top Agents:
 | No.         | Agent Name  |  Training Accuracy | Testing Accuracy |
