@@ -120,8 +120,7 @@ This repository contains:
 ### Tutorial 1
 - Check out poke-env [examples](https://poke-env.readthedocs.io/en/latest/examples.html).
 
-### [Tutorial 2: Scripted Agents Fight On Pokemon Showdown
-](https://github.com/mnguyen0226/hackathon_hs/tree/main/src/tutorials/tutorials_two/t2.md)
+### [Tutorial 2: Scripted Agents Fight On Pokemon Showdown](https://github.com/mnguyen0226/hackathon_hs/tree/main/src/tutorials/tutorials_two/t2.md)
 
 ### [Tutorial 3](https://github.com/mnguyen0226/hackathon_hs/blob/main/src/tutorials/tutorials_three/t3.md)
 - Tutorial on having you play against 2 scripted agents on Pokemon Showdown on 2 machines.
