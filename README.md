@@ -133,5 +133,4 @@ This repository contains:
 
 ### [Tutorial 5: Trained DQN RL Agents with Stable Baselines](https://github.com/mnguyen0226/hackathon_hs/blob/main/src/tutorials/tutorial_five/t5.md)
 
-### [Tutorial 6](https://github.com/mnguyen0226/hackathon_hs/blob/main/src/tutorials/tutorial_six/t6.md)
-- Tutorial on having your RL agents vs scripted agents on Pokemon Showdown on 2 machine.
+### [Tutorial 6: You vs Trained DQN RL Agent with Stable Baselines On Pokemon Showdown](https://github.com/mnguyen0226/hackathon_hs/blob/main/src/tutorials/tutorial_six/t6.md)

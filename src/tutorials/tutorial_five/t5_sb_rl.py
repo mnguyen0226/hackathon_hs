@@ -178,9 +178,7 @@ def main():
     )
 
     print("Saving Model...")
-    model.save(
-        "/path_to_this/hackathon_hs/src/tutorials/tutorial_five/dqn_sb_agent"
-    )
+    model.save("/path_to_this/hackathon_hs/src/tutorials/tutorial_five/dqn_sb_agent")
     print("Model Save")
 
 
