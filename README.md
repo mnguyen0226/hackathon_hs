@@ -123,6 +123,8 @@ This repository contains:
     - [RLlib](https://docs.ray.io/en/master/rllib.html).
 
 - **Note on tutorials below:** If Pokemon Showdown give you the spam message below when you challenge someone, just refresh the page and rechallenge.
+
+
 ![alt text](https://github.com/mnguyen0226/hackathon_hs/blob/main/docs/imgs/spam_pokemon_showdown.jpg)
 
 ### Tutorial 1
