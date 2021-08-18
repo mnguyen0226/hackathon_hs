@@ -38,7 +38,7 @@ class MaxDamagePlayer(Player):
             return self.choose_random_move(battle)
 
 async def main():
-    # Start the time
+    # Start the time tracker
     start = time.time()
 
     # We create two players
