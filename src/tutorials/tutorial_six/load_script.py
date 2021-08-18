@@ -1,19 +1,15 @@
-# Script load trained player and evaluate against human player
-
 import asyncio
 from poke_env.player_configuration import PlayerConfiguration
 from poke_env.server_configuration import ShowdownServerConfiguration
 from stable_baselines import DQN
 import numpy as np
 from poke_env.player.random_player import RandomPlayer
-from poke_env.player.player import Player
 from gym.spaces import Box, Discrete
 from poke_env.player.env_player import Gen8EnvSinglePlayer
 
 trained_model = DQN.load(
     "/home/mnguyen/Documents/summer2021/pokemon/hackathon_hs/src/tutorials/tutorial_six/dqn_sb_agent"
 )
-
 
 class TrainedRLPlayer(Gen8EnvSinglePlayer):
     observation_space = Box(low=-10, high=10, shape=(10,))
@@ -110,29 +106,29 @@ class TrainedRLPlayer(Gen8EnvSinglePlayer):
         :rtype: str
         """
         if (
-            action < 4
-            and action < len(battle.available_moves)
-            and not battle.force_switch
+                action < 4
+                and action < len(battle.available_moves)
+                and not battle.force_switch
         ):
             return self.create_order(battle.available_moves[action])
         elif (
-            not battle.force_switch
-            and battle.can_z_move
-            and 0 <= action - 4 < len(battle.active_pokemon.available_z_moves)
+                not battle.force_switch
+                and battle.can_z_move
+                and 0 <= action - 4 < len(battle.active_pokemon.available_z_moves)
         ):
             return self.create_order(
                 battle.active_pokemon.available_z_moves[action - 4], z_move=True
             )
         elif (
-            battle.can_mega_evolve
-            and 0 <= action - 8 < len(battle.available_moves)
-            and not battle.force_switch
+                battle.can_mega_evolve
+                and 0 <= action - 8 < len(battle.available_moves)
+                and not battle.force_switch
         ):
             return self.create_order(battle.available_moves[action - 8], mega=True)
         elif (
-            battle.can_dynamax
-            and 0 <= action - 12 < len(battle.available_moves)
-            and not battle.force_switch
+                battle.can_dynamax
+                and 0 <= action - 12 < len(battle.available_moves)
+                and not battle.force_switch
         ):
             return self.create_order(battle.available_moves[action - 12], dynamax=True)
         elif 0 <= action - 16 < len(battle.available_switches):
@@ -152,14 +148,11 @@ class TrainedRLPlayer(Gen8EnvSinglePlayer):
         ----------
         Either best action or random action
         """
-        if battle.available_moves:
-            print("Available Move")
-            # if the player can attack, it will
+        if (battle.available_moves):
             observations = self.embed_battle(battle)
-            action = self.model.predict(observations)[0]  # this probablity wrong
-            # action = 5
+            action = self.model.predict(observations)[0] 
             return self._action_to_move(action, battle)
-        else:  # Take randome move
+        else: 
             print("Random Move")
             return self.choose_random_move(battle)
 
