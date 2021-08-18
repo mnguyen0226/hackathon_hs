@@ -18,7 +18,7 @@ This repository contains:
 - We established foundations for future [MOSAIC Warfare](https://heronsystems.com/work/gamebreaker/).
 - We protected [US borders](https://heronsystems.com/work/).
 
-# Hackathon 2021 & Contact Infos
+# About Hackathon 2021
 
 ## 1. Rules
 - You can join solo or team of 2-3 members.
