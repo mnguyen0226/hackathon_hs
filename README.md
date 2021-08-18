@@ -124,11 +124,7 @@ This repository contains:
 
 ### [Tutorial 3: You vs Scripted Agent On Pokemon Showdown](https://github.com/mnguyen0226/hackathon_hs/blob/main/src/tutorials/tutorials_three/t3.md)
 
-### [Tutorial 4](https://github.com/mnguyen0226/hackathon_hs/blob/main/src/tutorials/tutorials_four/t4.md)
-- Two scripted agents fight on 2 machine.
-
-
-- Tutorial on training and rendering simple DQN agent on Pokemon Showdown.
+### [Tutorial 4: Random Agent vs Max Damage Agent On Pokemon Showdown](https://github.com/mnguyen0226/hackathon_hs/blob/main/src/tutorials/tutorials_four/t4.md)
 
 ### [Tutorial 5](https://github.com/mnguyen0226/hackathon_hs/blob/main/src/tutorials/tutorial_five/t5.md)
 - Tutorial on having you play against your RL Agent
