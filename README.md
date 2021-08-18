@@ -2,7 +2,7 @@
 
 ![alt text](docs/imgs/acewall_hackathon.jpg)
 
-# About
+# About This Repository
 This repository utilizes the [Pokemon-Showdown](https://github.com/smogon/pokemon-showdown), [poke-env](https://poke-env.readthedocs.io/en/latest/getting_started.html) repositories to get the up-to-date set-up, tutorials, implementations for practicing Machine Learning Reinforcement Learning Pokemon Battle Bots against Heron's benchmark scripted agents and trained agents.
 
 This repository contains:
