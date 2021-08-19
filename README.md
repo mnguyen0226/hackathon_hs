@@ -3,17 +3,17 @@
 ![alt text](docs/imgs/acewall_hackathon.jpg)
 
 # About This Repository
-This repository utilizes the [Pokemon-Showdown](https://github.com/smogon/pokemon-showdown), [poke-env](https://poke-env.readthedocs.io/en/latest/getting_started.html) repositories to get the up-to-date set-up, tutorials, implementations for practicing Machine Learning Reinforcement Learning Pokemon Battle Bots against Heron's benchmark scripted agents and trained agents.
+This repository utilizes the [Pokemon-Showdown](https://github.com/smogon/pokemon-showdown), [Poke-env](https://poke-env.readthedocs.io/en/latest/getting_started.html) repositories to provide the up-to-date set-up, tutorials, implementations for practicing and competing Machine Learning (ML), Reinforcement Learning (RL) Pokemon Battle Bots against Heron's benchmark scripted agents and trained RL agents.
 
 This repository contains:
 - About Heron Systems.
 - Rules of Hackathon and Heron Systems' MLE and SWE contact info for Hackathon Q&A.
-- Resource, tips, and tricks to setup poke-env environment.
-- Tutorials.
+- Resource, tips, and tricks to setup Poke-env environment.
+- Quick-start tutorials.
 
 # About Heron Systems
 - [Heron Systems](https://heronsystems.com/about/) is a lean organization, our leadership remains active in our technical projects, offering partners highly responsive customer service.  Our technical approach is guided by a firm commitment to quality engineering, open architecture, and flexible, extensible systems.
-- We built [autonomous fighting jet](https://www.janes.com/defence-news/news-detail/heron-systems-ai-defeats-human-pilot-in-us-darpa-alphadogfight-trials).
+- We built [autonomous fighting jets](https://www.janes.com/defence-news/news-detail/heron-systems-ai-defeats-human-pilot-in-us-darpa-alphadogfight-trials) and [drones](https://shield.ai/products).
 - We broke [games balance](https://heronsystems.com/work/gamebreaker/).
 - We established foundations for future [MOSAIC Warfare](https://heronsystems.com/work/gamebreaker/).
 - We protected [US borders](https://heronsystems.com/work/).
@@ -45,7 +45,7 @@ This repository contains:
 ## 4. Option Two: Alpha Poke-fight Trials
 ![alt text](docs/imgs/APT.jpg)
 
-- You think you are good at Pokemon? Submit your agents to fight 5 rounds and get prizes.
+- Are you a master in Pokemon battles? Join our Arena and submit your agent(s) to fight 5 rounds and get prizes.
 - To enable everyone to fight with each other and compatible with our RL agents, we limit everyone to use the easy-to-use, easy-to-apply [poke-env](https://poke-env.readthedocs.io/en/latest/).
 - What we want to see?
     - Ability to analyze problems and come up with immediate and long-term solutions.
@@ -127,15 +127,14 @@ This repository contains:
 
 ![alt text](https://github.com/mnguyen0226/hackathon_hs/blob/main/docs/imgs/spam_pokemon_showdown.jpg)
 
-### Tutorial 1
-- Check out poke-env [examples](https://poke-env.readthedocs.io/en/latest/examples.html).
+### **Tutorial 1:** Check out Poke-env [examples](https://poke-env.readthedocs.io/en/latest/examples.html).
 
-### [Tutorial 2: Scripted Agents Fight On Pokemon Showdown](https://github.com/mnguyen0226/hackathon_hs/tree/main/src/tutorials/tutorials_two/t2.md)
+### [Tutorial 2: Scripted Agents Fight On Pokemon Showdown](https://github.com/mnguyen0226/hackathon_hs/tree/main/src/tutorials/tutorials_two/t2.md).
 
-### [Tutorial 3: You vs Scripted Agent On Pokemon Showdown](https://github.com/mnguyen0226/hackathon_hs/blob/main/src/tutorials/tutorials_three/t3.md)
+### [Tutorial 3: You vs Scripted Agent On Pokemon Showdown](https://github.com/mnguyen0226/hackathon_hs/blob/main/src/tutorials/tutorials_three/t3.md).
 
-### [Tutorial 4: Random Agent vs Max Damage Agent On Pokemon Showdown](https://github.com/mnguyen0226/hackathon_hs/blob/main/src/tutorials/tutorials_four/t4.md)
+### [Tutorial 4: Random Agent vs Max Damage Agent On Pokemon Showdown](https://github.com/mnguyen0226/hackathon_hs/blob/main/src/tutorials/tutorials_four/t4.md).
 
-### [Tutorial 5: Trained DQN RL Agents with Stable Baselines](https://github.com/mnguyen0226/hackathon_hs/blob/main/src/tutorials/tutorial_five/t5.md)
+### [Tutorial 5: Trained DQN RL Agents with Stable Baselines](https://github.com/mnguyen0226/hackathon_hs/blob/main/src/tutorials/tutorial_five/t5.md).
 
-### [Tutorial 6: You vs Trained DQN RL Agent with Stable Baselines On Pokemon Showdown](https://github.com/mnguyen0226/hackathon_hs/blob/main/src/tutorials/tutorial_six/t6.md)
+### [Tutorial 6: You vs Trained DQN RL Agent with Stable Baselines On Pokemon Showdown](https://github.com/mnguyen0226/hackathon_hs/blob/main/src/tutorials/tutorial_six/t6.md).
