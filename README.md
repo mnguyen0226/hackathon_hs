@@ -47,6 +47,7 @@ This repository contains:
 
 - Are you a master in Pokemon battles? Join our Arena and submit your agent(s) to fight 5 rounds and get prizes.
 - To enable everyone to fight with each other and compatible with our RL agents, we limit everyone to use the easy-to-use, easy-to-apply [poke-env](https://poke-env.readthedocs.io/en/latest/).
+
 - What we want to see?
     - Ability to analyze problems and come up with immediate and long-term solutions.
     - Ability to apply software/machine learning/robotics skills to solve problems.
