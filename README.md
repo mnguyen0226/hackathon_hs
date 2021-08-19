@@ -127,7 +127,7 @@ This repository contains:
 
 ![alt text](https://github.com/mnguyen0226/hackathon_hs/blob/main/docs/imgs/spam_pokemon_showdown.jpg)
 
-### **Tutorial 1:** Check out Poke-env [examples](https://poke-env.readthedocs.io/en/latest/examples.html).
+### Tutorial 1: Check out Poke-env [examples](https://poke-env.readthedocs.io/en/latest/examples.html).
 
 ### [Tutorial 2: Scripted Agents Fight On Pokemon Showdown](https://github.com/mnguyen0226/hackathon_hs/tree/main/src/tutorials/tutorials_two/t2.md).
 
