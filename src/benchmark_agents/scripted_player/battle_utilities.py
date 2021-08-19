@@ -4,6 +4,26 @@ from poke_env.environment.move_category import MoveCategory
 
 
 def calculate_damage(move, attacker, defender, pessimistic, is_bot_turn):
+    """Helper Function: Calculate the damage of attacker's pokemon.
+
+    Parameter
+    ----------
+    move:
+        index value 0-3 of 4 possible move.
+    attacker:
+        either your pokemon or opponent's pokemon.
+    defender:
+        either opponent's pokemon or your pokemon.
+    pessimistic:
+        boolean flag to calculate damage.
+    is_bot_turn
+        boolean flag to mark if it's the bot turn or not.
+
+    Return
+    ----------
+    damage:
+        floating point of damage values
+    """
     if move is None:
         print("Why is move none?")
         return 0
@@ -35,11 +55,25 @@ def calculate_damage(move, attacker, defender, pessimistic, is_bot_turn):
     return damage
 
 
-# The following two functions work very similarly, just focusing on different stats.
-# They get the ratio between my Pokemon's attack and my opponent's estimated defense
-# In random battles each Pokemon has 85 EVs in each stat and a neutral nature
-# As far as I can tell IVs are random - assume average IVs (15)
 def calculate_physical_ratio(attacker, defender, is_bot_turn):
+    """Helper Function: The following two functions work very similarly, just focusing on different stats.
+    They get the ratio between my Pokemon's attack and my opponent's estimated defense
+    In random battles each Pokemon has 85 EVs in each stat and a neutral nature
+    As far as I can tell IVs are random - assume average IVs (15)
+
+    Parameter
+    ----------
+    attacker:
+        either your pokemon or opponent's pokemon.
+    defender:
+        either opponent's pokemon or your pokemon.
+    is_bot_turn
+        boolean flag to mark if it's the bot turn or not.
+
+    Return
+    ----------
+    Ratio between attack and defense
+    """
     if is_bot_turn:
         # Get my attack value
         attack = attacker.stats["atk"]
@@ -56,6 +90,21 @@ def calculate_physical_ratio(attacker, defender, is_bot_turn):
 
 
 def calculate_special_ratio(attacker, defender, is_bot_turn):
+    """Helper Function: Calculate the special ratio
+
+    Parameter
+    ----------
+    attacker:
+        either your pokemon or opponent's pokemon.
+    defender:
+        either opponent's pokemon or your pokemon.
+    is_bot_turn
+        boolean flag to mark if it's the bot turn or not.
+
+    Return
+    ----------
+    Ratio between attack stats and defense stats
+    """
     if is_bot_turn:
         # Get my special attack value
         spatk = attacker.stats["spa"]
@@ -72,6 +121,19 @@ def calculate_special_ratio(attacker, defender, is_bot_turn):
 
 
 def opponent_can_outspeed(my_pokemon, opponent_pokemon):
+    """Helper Function: Determine if the opponent's pokemon can out speed our pokemon or not
+
+    Parameter
+    ----------
+    my_pokemon:
+        Your current pokemon on the battle field
+    opponent_pokemon:
+        The opponent's current pokemon on the battle fields
+
+    Return
+    ----------
+    Boolean of opponent can outspeed or not
+    """
     my_speed = my_pokemon.stats["spe"]
     # Assume the worst - max IVs for opponent speed
     opponent_max_speed = 2 * opponent_pokemon.base_stats["spe"]
@@ -85,6 +147,19 @@ def opponent_can_outspeed(my_pokemon, opponent_pokemon):
 
 
 def calculate_total_HP(pokemon, is_dynamaxed):
+    """Helper Function: Calculate the total health of the pokemon
+
+    Parameter
+    ----------
+    pokemon:
+        either your pokemon or opponent's pokemon
+    is_dynamaxed:
+        boolean option if the pokemon choose dynamaxed
+
+    Return
+    ---------
+    HP: Health value
+    """
     HP = pokemon.base_stats["hp"] * 2
     # Add average EVs and IVs to stat
     HP = HP + 36
@@ -95,10 +170,22 @@ def calculate_total_HP(pokemon, is_dynamaxed):
     return HP
 
 
-# Returns a value that determines how well my_pokemon matches up with
-# opponent_pokemon defensively. If opponent_pokemon has multiple types,
-# return the value associated with the worse matchup
 def get_defensive_type_multiplier(my_pokemon, opponent_pokemon):
+    """Helper Function: Returns a value that determines how well my_pokemon matches up with
+    opponent_pokemon defensively. If opponent_pokemon has multiple types,
+    return the value associated with the worse matchup
+
+    Parameter
+    ----------
+    my_pokemon:
+        Your current pokemon on the battle field
+    opponent_pokemon:
+        The opponent's current pokemon on the battle fields
+
+    Return
+    ----------
+    multiplier defensive type
+    """
     multiplier = 1
     first_type = opponent_pokemon.type_1
     first_multiplier = my_pokemon.damage_multiplier(first_type)
