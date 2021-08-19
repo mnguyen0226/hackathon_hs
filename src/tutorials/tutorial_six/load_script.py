@@ -10,6 +10,7 @@ trained_model = DQN.load(
     "/home/mnguyen/Documents/summer2021/pokemon/hackathon_hs/src/tutorials/tutorial_six/dqn_sb_agent"
 )
 
+
 class TrainedRLPlayer(Gen8EnvSinglePlayer):
     observation_space = Box(low=-10, high=10, shape=(10,))
     action_space = Discrete(22)
@@ -105,29 +106,29 @@ class TrainedRLPlayer(Gen8EnvSinglePlayer):
         :rtype: str
         """
         if (
-                action < 4
-                and action < len(battle.available_moves)
-                and not battle.force_switch
+            action < 4
+            and action < len(battle.available_moves)
+            and not battle.force_switch
         ):
             return self.create_order(battle.available_moves[action])
         elif (
-                not battle.force_switch
-                and battle.can_z_move
-                and 0 <= action - 4 < len(battle.active_pokemon.available_z_moves)
+            not battle.force_switch
+            and battle.can_z_move
+            and 0 <= action - 4 < len(battle.active_pokemon.available_z_moves)
         ):
             return self.create_order(
                 battle.active_pokemon.available_z_moves[action - 4], z_move=True
             )
         elif (
-                battle.can_mega_evolve
-                and 0 <= action - 8 < len(battle.available_moves)
-                and not battle.force_switch
+            battle.can_mega_evolve
+            and 0 <= action - 8 < len(battle.available_moves)
+            and not battle.force_switch
         ):
             return self.create_order(battle.available_moves[action - 8], mega=True)
         elif (
-                battle.can_dynamax
-                and 0 <= action - 12 < len(battle.available_moves)
-                and not battle.force_switch
+            battle.can_dynamax
+            and 0 <= action - 12 < len(battle.available_moves)
+            and not battle.force_switch
         ):
             return self.create_order(battle.available_moves[action - 12], dynamax=True)
         elif 0 <= action - 16 < len(battle.available_switches):
@@ -147,13 +148,14 @@ class TrainedRLPlayer(Gen8EnvSinglePlayer):
         ----------
         Either best action or random action
         """
-        if (battle.available_moves):
+        if battle.available_moves:
             observations = self.embed_battle(battle)
-            action = self.model.predict(observations)[0] 
+            action = self.model.predict(observations)[0]
             return self._action_to_move(action, battle)
-        else: 
+        else:
             print("Random Move")
             return self.choose_random_move(battle)
+
 
 async def main():
     # Create a TrainedRLPlayer
