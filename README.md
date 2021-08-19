@@ -57,18 +57,18 @@ This repository contains:
     - Please contact Alex to submit your solutions and projects.
 
 ### Top Agents
-| No.         | Agent Name  |  Training Accuracy | Testing Accuracy |
-| ----------- | ----------- | ------------------ | ---------------- |
-| 1           | A           | abc                | abc              |
-| 2           | B           | abc                | abc              |
-| 3           | C           | abc                | abc              |
-| 4           | D           | abc                | abc              |
-| 5           | E           | abc                | abc              |
-| 6           | F           | abc                | abc              |
-| 7           | G           | abc                | abc              |
-| 8           | H           | abc                | abc              |
-| 9           | H           | abc                | abc              |
-| 10          | H           | abc                | abc              |
+| No.         | Agent Name                       |  Training Accuracy | Testing Accuracy |
+| ----------- | -------------------------------- | ------------------ | ---------------- |
+| 1           | Scripted Heuristic Agent         | abc                | abc              |
+| 2           | Scripted Switch Max Damage Agent | abc                | abc              |
+| 3           | RL DQN Agent                     | abc                | abc              |
+| 4           | Scripted Max Damage Agent        | abc                | abc              |
+| 5           | Scripted Random Agent            | abc                | abc              |
+| 6           | F                                | abc                | abc              |
+| 7           | G                                | abc                | abc              |
+| 8           | H                                | abc                | abc              |
+| 9           | H                                | abc                | abc              |
+| 10          | H                                | abc                | abc              |
 
 ### Installation
 - **Step 1:** On your Python workspace, install [Poke-env](https://poke-env.readthedocs.io/en/latest/) with 
