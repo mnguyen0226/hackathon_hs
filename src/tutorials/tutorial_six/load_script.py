@@ -158,7 +158,7 @@ class TrainedRLPlayer(Gen8EnvSinglePlayer):
 async def main():
     # Create a TrainedRLPlayer
     simplerl_player = TrainedRLPlayer(
-        player_configuration=PlayerConfiguration("minheapolis_bot", "Minh123456!"),
+        player_configuration=PlayerConfiguration("minheapolis_bot", "heron_is_a_bird"),
         server_configuration=ShowdownServerConfiguration,
     )
 
