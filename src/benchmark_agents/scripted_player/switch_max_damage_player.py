@@ -8,7 +8,6 @@ from poke_env.player.random_player import RandomPlayer
 from src.benchmark_agents.scripted_player.max_damage_player import MaxDamagePlayer
 from poke_env.player.player import Player
 from poke_env.player.baselines import SimpleHeuristicsPlayer
-from poke_env.environment.move_category import MoveCategory
 
 
 class SwitchMaxDamagePlayer(Player):
