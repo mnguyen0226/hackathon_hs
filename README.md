@@ -30,6 +30,8 @@ This repository contains:
 - There are two optional projects for you to participate to Heron Systems Hackathon:
   - Option One: Build the coolest ML/RL/Robotics Project/Application.
   - Option Two: Alpha Poke-fight Trials.
+- Prizes:
+    - SHADE
 
 ## 2. Contact Infos
 
