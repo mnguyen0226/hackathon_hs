@@ -118,7 +118,7 @@ This repository contains:
     - [Berkeley's Deep Reinforcement Learning Course](http://rail.eecs.berkeley.edu/deeprlcourse/).
     - [More Resources](https://github.com/dennybritz/reinforcement-learning).
 
-- Recommended Developing Environments:
+- Recommended Developing Frameworks:
     - [Poke-env]() itself.
     - [Stable Baselines](https://stable-baselines.readthedocs.io/en/master/index.html). Not Stable Baselines 3.
     - [RLlib](https://docs.ray.io/en/master/rllib.html).
