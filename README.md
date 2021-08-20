@@ -62,7 +62,7 @@ This repository contains:
 | 1           | Scripted Heuristic Agent         | 93%                | 90%              |
 | 2           | Scripted Switch Max Damage Agent | 90%                | 87%              |
 | 3           | RL DQN Agent                     | 87%                | 84%              |
-| 4           | Scripted Max Damage Agent        | 80%                | 77%              |
+| 4           | [Scripted Max Damage Agent](https://github.com/mnguyen0226/hackathon_hs/blob/main/src/benchmark_agents/scripted_player/max_damage_player.py)        | 80%                | 77%              |
 | 5           | Scripted Random Agent            | 79%                | 65%              |
 | 6           | F                                | abc                | abc              |
 | 7           | G                                | abc                | abc              |
