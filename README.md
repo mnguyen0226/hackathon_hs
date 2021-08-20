@@ -98,7 +98,7 @@ This repository contains:
 
 - **Step 3:** Set up training server.
 
-  - Unzip src/Pokemon-Showdown-master.zip.
+  - Unzip src/Pokemon-Showdown-master.zip. Then on your terminal (and Python environment), run this command:
 
   ```
   cd Pokemon-Showdown
