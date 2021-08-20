@@ -54,7 +54,7 @@ This repository contains:
 
 - Are you a master in Pokemon battles? Join our Arena and submit your agent(s) to fight 5 rounds and get prizes.
 
-- To enable everyone to fight with each other and compatible with our RL agents, we limit everyone to use the easy-to-use, easy-to-apply [poke-env](https://poke-env.readthedocs.io/en/latest/).
+- To enable everyone to fight with each other and compatible with our RL agents, we limit everyone to use the easy-to-use, easy-to-apply [Poke-env](https://poke-env.readthedocs.io/en/latest/).
 
 - What we want to see?
 
