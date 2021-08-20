@@ -56,14 +56,14 @@ This repository contains:
 - Submission:
     - Please contact Alex to submit your solutions and projects.
 
-### Top Agents
+### Top Agents (% is just arbitrary)
 | No.         | Agent Name                       |  Training Accuracy | Testing Accuracy |
 | ----------- | -------------------------------- | ------------------ | ---------------- |
-| 1           | Scripted Heuristic Agent         | abc                | abc              |
-| 2           | Scripted Switch Max Damage Agent | abc                | abc              |
-| 3           | RL DQN Agent                     | abc                | abc              |
-| 4           | Scripted Max Damage Agent        | abc                | abc              |
-| 5           | Scripted Random Agent            | abc                | abc              |
+| 1           | Scripted Heuristic Agent         | 93%                | 90%              |
+| 2           | Scripted Switch Max Damage Agent | 90%                | 87%              |
+| 3           | RL DQN Agent                     | 87%                | 84%              |
+| 4           | Scripted Max Damage Agent        | 80%                | 77%              |
+| 5           | Scripted Random Agent            | 79%                | 65%              |
 | 6           | F                                | abc                | abc              |
 | 7           | G                                | abc                | abc              |
 | 8           | H                                | abc                | abc              |
