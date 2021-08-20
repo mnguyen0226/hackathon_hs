@@ -155,26 +155,22 @@ def evaluating(player):
 def main():
     # Training against random player
     envPlayer.play_against(
-        env_algorithm=training,
-        opponent=opponent_random,
+        env_algorithm=training, opponent=opponent_random,
     )
 
     # Training against max damage player
     envPlayer.play_against(
-        env_algorithm=training,
-        opponent=opponent_max_dam,
+        env_algorithm=training, opponent=opponent_max_dam,
     )
 
     print("Evaluating against random player")
     envPlayer.play_against(
-        env_algorithm=evaluating,
-        opponent=opponent_random,
+        env_algorithm=evaluating, opponent=opponent_random,
     )
 
     print("Evaluating against max damage player")
     envPlayer.play_against(
-        env_algorithm=evaluating,
-        opponent=opponent_max_dam,
+        env_algorithm=evaluating, opponent=opponent_max_dam,
     )
 
     print("Saving Model...")

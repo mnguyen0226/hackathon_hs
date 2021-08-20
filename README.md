@@ -59,11 +59,11 @@ This repository contains:
 ### Top Agents (% is just arbitrary)
 | No.         | Agent Name                       |  Training Accuracy | Testing Accuracy |
 | ----------- | -------------------------------- | ------------------ | ---------------- |
-| 1           | Scripted Heuristic Agent         | 93%                | 90%              |
-| 2           | Scripted Switch Max Damage Agent | 90%                | 87%              |
-| 3           | RL DQN Agent                     | 87%                | 84%              |
+| 1           | [Scripted Heuristic Agent](https://github.com/mnguyen0226/hackathon_hs/blob/main/src/benchmark_agents/scripted_player/switch_max_damage_player.py)         | 93%                | 90%              |
+| 2           | [Scripted Switch Max Damage Agent](https://github.com/mnguyen0226/hackathon_hs/blob/main/src/benchmark_agents/scripted_player/switch_max_damage_player.py) | 90%                | 87%              |
+| 3           | [RL DQN Agent](https://github.com/mnguyen0226/hackathon_hs/blob/main/src/benchmark_agents/trained_player/t5_sb_rl.py)                     | 87%                | 84%              |
 | 4           | [Scripted Max Damage Agent](https://github.com/mnguyen0226/hackathon_hs/blob/main/src/benchmark_agents/scripted_player/max_damage_player.py)        | 80%                | 77%              |
-| 5           | Scripted Random Agent            | 79%                | 65%              |
+| 5           | [Scripted Random Agent](https://github.com/mnguyen0226/hackathon_hs/blob/main/src/benchmark_agents/scripted_player/switch_max_damage_player.py)            | 79%                | 65%              |
 | 6           | F                                | abc                | abc              |
 | 7           | G                                | abc                | abc              |
 | 8           | H                                | abc                | abc              |
